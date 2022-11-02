@@ -2,7 +2,7 @@
 2.cd /etc  ls -a -d -r   
 3.Cd dev  ls tty??
 4.cd dev  ls tty*1
-5.cd dev  ls t*c1
+5.cd dev  ls t*c1 o 2 o 3 o 4
 6.Ls -a
 7.is -d ^t 
 8.Cd usr  ls-r
