@@ -1,4 +1,4 @@
-1.ls -l /bin  ls/tmp
+1.cd bin | tmp    ls -l bin | tmp
 2.cd /etc  ls -a -d -r   
 3.Cd dev  ls tty??
 4.cd dev  ls tty*1
