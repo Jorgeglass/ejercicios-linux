@@ -1,0 +1,110 @@
+Ejercicios comandos Linux
+
+1. Listar todos los archivos del directorio bin.
+Listar todos los archivos del directorio tmp. cd
+bin | tmp ls -l bin | tmp
+2. Listar todos los archivos del directorio etc que empiecen port en orden
+inverso.
+cd /etc
+ls -a -d -r t*
+3. Listar todos los archivos del directorio dev que empiecen por tty y
+tengan 5
+caracteres. Cd dev
+ls tty??
+4. Listar todos los archivos del directorio dev que empiecen por tty y acaben
+en
+1,2,3 ó 4.
+cd dev
+ls tty*1
+5. Listar todos los archivos del directorio dev que empiecen port y
+acaben en
+C1. cd dev
+ls t*c1
+6. Listar todos los archivos, incluidos los ocultos, del directorio
+raíz. Ls -a
+7. Listar todos los archivos del directorio etc que no empiecen por t.
+is -d ^t
+8. Listar todos los archivos del directorio usr y sus
+subdirectorios. Cd usr ls-r
+9. Cambiarse al directorio tmp, crear directorio
+PRUEBA. Cd tmp
+mkdir prueba
+10. Verificar que el directorio actual ha cambiado.
+Cd prueba
+pwd
+11. Mostrar el día y la hora
+actual. date
+12. Con un solo comando posicionarse en el directorio
+$HOME. Cd /home
+13. Verificar que se está en él. ls
+14. Listar todos los ficheros del directorio HOME mostrando su número de
+inodo. Ls -i
+15. Borrar todos los archivos y directorios visibles de vuestro
+directorio PRUEBA.
+Cd /tmp
+cd prueba
+rm -rf prueba
+16. Crear los directorios dir1, dir2 y dir3 en el directorio PRUEBA. Dentro de
+dir1
+crear el directorio dir11. Dentro del directorio dir3 crear el directorio dir31.
+Dentro del directorio dir31, crear los directorios dir311 y dir312.
+Cd /tmp
+cd prueba
+mkdir dir1 / cd dir1 / mkdir dir 11
+mkdir dir2
+mkdir dir3 / cd dir3 / mkdir dir31 / cd dir31 / mkdir dir311 / mkdir
+dir312
+17. Copiar el archivo /etc/motd a un archivo llamado mensaje de
+vuestro sudo touch mensaje.txt
+directorio PRUEBA.
+18. Copiar mensaje en dir1, dir2 y dir3.
+Comprobar el ejercicio anterior mediante un solo comando.
+Cp mensaje.txt dir1 o dir2 o dir3
+19. Copiar los archivos del directorio rc.d que se encuentra en /etc al directorio
+dir31. Cp -r
+rc.d dir31
+20. Copiar en el directorio dir311 los archivos de /bin que tengan una a como
+segunda letra y su nombre tenga cuatro letras.
+Cp -r ?a?? dir3 dir 31 dir 311
+21. Copiar el directorio de otro usuario y sus subdirectorios debajo
+de dir11
+(incluido el propio directorio). Jordi
+- Sudo cp -r cd/tmp pureba dir1
+dir11
+22. Mover el directorio dir31 y sus subdirectorios debajo de
+dir2. Mv dir31 dir2
+23. Mostrar por pantalla los archivos ordinarios del directorio
+HOME y sus cd /home ls -r &
+subdirectorios.
+24. Ocultar el archivo mensaje del directorio dir3.
+Mv dir3 mensaje dir3 .mensaje
+25. Borrar los archivos y directorios de dir1, incluido el propio
+directorio. Rm -rf prueba/dir1
+26. Copiar al directorio dir312 los ficheros del directorio /dev que empiecen
+port,
+acaben en una letra que vaya de la a a la b y tengan cinco letras en su nombre.
+cp t??? este no tengo ni idea
+27.Borrar los archivos de dir312 que no acaben en by tengan una q como cuarta
+letra. Rm -rf dir312/???q esto tampoco lo entiendo
+28. Mover el directorio dir312 debajo de dir3.
+Mv dir312 prueba/dir3
+29. Crear un enlace simbólico al directorio dir1 dentro del directorio dir3 llamado
+enlacedir1. Ln -s/prueba/dir3/enlacedir1
+30. Posicionarse en dir3 y, empleando el enlace creado en el ejercicio
+anterior,
+crear el directorio nuevo1 dentro de dir1. Cd dir3
+mkdir enlacedir1
+31. Utilizando el enlace creado copiar los archivos que empiecen por u del
+directorio /bin en directorio nuevo1. Cp -r
+enlacedir1/nuevo1
+32. Crear dos enlaces duros del fichero fich1, llamarlo enlace, en los
+directorios unfich1 cp dir1 cp dir2
+dir1 y dir2.
+33. Borrar el archivo fich1 y copiar enlace en dir3. Rm fich1 cp
+dir1/ enlace dir3
+34. Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en
+dir1. In -s /dir1/enlafich1
+35. Posicionarse en dir1 y, mediante el enlace creado, copiar el
+archivo fichl
+dentro de dir311.
+cd dir1 cp enlafich1 ../dir2/dir31/dir311/fich1
