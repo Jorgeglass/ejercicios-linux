@@ -10,7 +10,7 @@
 10.Cd prueba pwd
 11.date
 12.Cd /home
-13.ls
+13.pwd
 14.Ls -i
 15.Cd /tmp  cd prueba  rm -rf prueba
 16.Cd /tmp
