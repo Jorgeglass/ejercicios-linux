@@ -1,35 +1,35 @@
-cd bin | tmp ls -l bin | tmp
-cd /etc  ls -a -d -r   t*
-Cd dev  ls tty??
-cd dev  ls tty*1
-cd dev  ls t*c1
-Ls -a
-is -d ^t 
-Cd usr  ls-r
-Cd tmp  mkdir prueba
-Cd prueba pwd
-date
-Cd /home
-ls
-Ls -i
-Cd /tmp  cd prueba  rm -rf prueba
- Cd /tmp
-cd prueba   mkdir  dir1  /  cd dir1 /  mkdir dir 11      mkdir dir2       mkdir dir3  / cd dir3 /  mkdir dir31 / cd dir31 / mkdir dir311 / mkdir dir312
-sudo touch mensaje.txt
-Cp mensaje.txt dir1 o dir2 o dir3
-Cp -r rc.d dir31
-Cp -r ?a?? dir3 dir 31 dir 311
-Mv dir31 dir2
-cd /home   ls -r &
-Mv dir3 mensaje dir3 .mensaje
-Rm -rf prueba/dir1
-cp t???    este no tengo ni idea
-Rm -rf dir312/???q   esto tampoco lo entiendo
-Mv dir312  prueba/dir3
-Ln -s/prueba/dir3/enlacedir1
-Cd dir3 mkdir enlacedir1
-Cp -r enlacedir1/nuevo1
-unfich1 cp dir1 cp dir2
-Rm fich1 cp dir1/ enlace dir3
-In -s /dir1/enlafich1
-cd dir1 cp enlafich1 ../dir2/dir31/dir311/fich1
+1.cd bin | tmp ls -l bin | tmp
+2.cd /etc  ls -a -d -r   t*
+3.Cd dev  ls tty??
+4.cd dev  ls tty*1
+5.cd dev  ls t*c1
+6.Ls -a
+7.is -d ^t 
+8.Cd usr  ls-r
+9.Cd tmp  mkdir prueba
+10.Cd prueba pwd
+11.date
+12.Cd /home
+13.ls
+14.Ls -i
+15.Cd /tmp  cd prueba  rm -rf prueba
+16.Cd /tmp
+17.cd prueba   mkdir  dir1  /  cd dir1 /  mkdir dir 11      mkdir dir2       mkdir dir3  / cd dir3 /  mkdir dir31 / cd dir31 / mkdir dir311 / mkdir dir312
+18.sudo touch mensaje.txt
+19.Cp mensaje.txt dir1 o dir2 o dir3
+20.Cp -r rc.d dir31
+21.Cp -r ?a?? dir3 dir 31 dir 311
+22.Mv dir31 dir2
+23.cd /home   ls -r &
+24.Mv dir3 mensaje dir3 .mensaje
+25.Rm -rf prueba/dir1
+26.cp t???    este no tengo ni idea
+27.Rm -rf dir312/???q   esto tampoco lo entiendo
+28.Mv dir312  prueba/dir3
+29.Ln -s/prueba/dir3/enlacedir1
+30.Cd dir3 mkdir enlacedir1
+31.Cp -r enlacedir1/nuevo1
+32.unfich1 cp dir1 cp dir2
+33.Rm fich1 cp dir1/ enlace dir3
+34.In -s /dir1/enlafich1
+35.cd dir1 cp enlafich1 ../dir2/dir31/dir311/fich1
